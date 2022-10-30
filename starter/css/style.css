@@ -57,10 +57,23 @@ h1{
   padding: 20px 20px 20px 60px;  
   /* pushes the header Stevana Al to the left primarily, but as a result moves to icon too*/  
   /* using this auto margin  allows your website flexibilty so the margin betwen h1 and the nav item changes depending on the size of the browser*/
-  margin-right: auto;
+  margin-right: auto; 
+  border-radius: 15%;
 }  
 .hero-banner { 
   background-image: url("/images/IMG_6655.jpg");
   height: 200px; 
-  width: 100%;
+  width: 100%; 
+} 
+
+#banner { 
+  display: flex;
+  box-sizing: border-box;
+  background-color: #f6bcca; 
+  padding: 20px 20px 20px 20px; 
+  height: fit-content; 
+  width: fit-content;
+  margin-left: auto; 
+  align-items: flex-end; 
+  border-radius: 15%;
 }

@@ -3,8 +3,8 @@
 }
 
 body {
-  margin: 0;
-  padding: 0;
+   margin: 0; 
+  padding: 0; 
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   line-height: 1.5;
 }
@@ -76,4 +76,72 @@ h1{
   margin-left: auto; 
   align-items: flex-end; 
   border-radius: 15%;
+} 
+
+p, 
+.projectContainer, 
+#contact-info {  
+  border-left: 5px solid  rgb(172, 106, 144); 
+  margin: 100px;
+
+} 
+#contact-info { 
+  list-style: none;
+  display: flex;
+  justify-content: space-between; 
+} 
+
+.projectContainer { 
+  display: grid; 
+  grid-template-areas: "studyguide studyguide"
+                      "comingsoon1 comingsoon2" 
+                      "comingsoon3 comingsoon4";  
+  background-position: center;
+  background-repeat: no-repeat; 
+  height: 500px;  
+  
+  
+}
+
+#project1 { 
+  grid-area: studyguide;
+  background-image:url("/images/3166598F-8E7C-4748-B802-2A0DAF5C219C.JPG"); 
+  width: 2fr; 
+  height: 1fr; 
+  border: 5px solid #f6bcca;
+  margin: 10px;
+  
+} 
+
+#project2 { 
+  grid-area: comingsoon1;
+  background-image:url("/images/0762E637-9BAD-427A-A907-7BA1059E7706.JPG");
+} 
+
+#project3 { 
+  grid-area: comingsoon2;
+  background-image:url("/images/IMG_6655.jpg"); 
+
+} 
+
+#project4 { 
+  grid-area: comingsoon3;
+  background-image:url("/images/IMG_6656.JPG");
+} 
+
+#project5 { 
+  grid-area: comingsoon4;
+  background-image:url("/images/IMG_6956.JPG");
+} 
+
+#project1, 
+#project2, 
+#project3, 
+#project4, 
+#project5 {  
+  width: 1fr; 
+  height: 1fr; 
+  border: 5px solid #f6bcca;
+  margin: 10px; 
+
 }

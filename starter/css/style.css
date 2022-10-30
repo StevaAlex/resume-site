@@ -1,5 +1,5 @@
 * {
-  box-sizing: border-box;
+  box-sizing: border-box; 
 }
 
 body {
@@ -22,13 +22,15 @@ p {
   margin: 0;
 }
 
-.nav { 
+.nav{ 
   list-style: none; 
   color: #f6bcca;
   display: flex;   
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
   flex-direction: row; 
   margin: 2px; 
+  padding: 0px; 
+  font-size: 20px;
 }  
 
 header{

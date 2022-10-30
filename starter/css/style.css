@@ -58,4 +58,9 @@ h1{
   /* pushes the header Stevana Al to the left primarily, but as a result moves to icon too*/  
   /* using this auto margin  allows your website flexibilty so the margin betwen h1 and the nav item changes depending on the size of the browser*/
   margin-right: auto;
-} 
+}  
+.hero-banner { 
+  background-image: url("/images/IMG_6655.jpg");
+  height: 200px; 
+  width: 100%;
+}

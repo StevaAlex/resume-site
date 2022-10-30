@@ -30,7 +30,8 @@ p {
   flex-direction: row; 
   margin: 2px; 
   padding: 0px; 
-  font-size: 20px;
+  font-size: 20px; 
+  cursor: pointer;
 }  
 
 header{

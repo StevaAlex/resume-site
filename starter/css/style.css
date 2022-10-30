@@ -70,7 +70,7 @@ h1{
   display: flex;
   box-sizing: border-box;
   background-color: #f6bcca; 
-  padding: 20px 20px 20px 20px; 
+  padding: 20px; 
   height: fit-content; 
   width: fit-content;
   margin-left: auto; 
@@ -106,8 +106,8 @@ p,
 #project1 { 
   grid-area: studyguide;
   background-image:url("/images/3166598F-8E7C-4748-B802-2A0DAF5C219C.JPG"); 
-  width: 2fr; 
-  height: 1fr; 
+  /* width: 2fr; 
+  height: 1fr;  */
   border: 5px solid #f6bcca;
   margin: 10px;
   
@@ -134,13 +134,12 @@ p,
   background-image:url("/images/IMG_6956.JPG");
 } 
 
-#project1, 
 #project2, 
 #project3, 
 #project4, 
 #project5 {  
-  width: 1fr; 
-  height: 1fr; 
+  /* width: 1fr; 
+  height: 1fr;  */
   border: 5px solid #f6bcca;
   margin: 10px; 
 

@@ -30,4 +30,16 @@ p {
   flex-direction: row; 
   margin: 2px;
   
+} 
+header{
+  background-color: rgb(110, 63, 90);   
+  display: flex; 
+  flex-direction: row; 
+  box-sizing: border-box;
+  padding: 10px;
+} 
+header img { 
+  border-radius: 50%;
+  height: 75px;
+  width: 75px; 
 }

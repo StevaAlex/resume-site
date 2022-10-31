@@ -34,7 +34,10 @@ p {
 }  
 .nav li {  
   /* adds 5px space in between each link  */
-  padding: 0px 5px;   
+  padding: 0px 5px;    
+  text-underline-offset: 4px;
+  text-decoration-thickness: 5px;
+  text-decoration-color: rgb(172, 106, 144);
 }
 
 header{
@@ -78,69 +81,128 @@ h1{
   border-radius: 15%;
 } 
 
-p, 
-.projectContainer, 
-#contact-info {  
-  border-left: 5px solid  rgb(172, 106, 144); 
-  margin: 100px;
-
-} 
 #contact-info { 
   list-style: none;
   display: flex;
-  justify-content: space-between; 
+  justify-content: space-between;  
+  text-underline-offset: 4px;
+  text-decoration-thickness: 5px;
+  text-decoration-color: rgb(172, 106, 144); 
+
 } 
 
-.projectContainer { 
+ .projectContainer {  
   display: grid; 
-  grid-template-areas: "studyguide studyguide"
+  grid-template-areas: "studyguide studyguide" 
+                      "studyguide studyguide"   
                       "comingsoon1 comingsoon2" 
                       "comingsoon3 comingsoon4";  
-  background-position: center;
-  background-repeat: no-repeat; 
-  height: 500px;  
-  
-  
-}
+  background-position: center; 
+  height: 1000px; 
+} 
 
-#project1 { 
+ #web-access {  
   grid-area: studyguide;
-  background-image:url("/images/3166598F-8E7C-4748-B802-2A0DAF5C219C.JPG"); 
-  /* width: 2fr; 
-  height: 1fr;  */
+  background-image:url("/images/stevaalex.github.io_Bootcamp-first-challenge_\ \(1\).png"); 
   border: 5px solid #f6bcca;
   margin: 10px;
-  
-} 
+  background-position: center; 
+  background-size: cover;
+}   
 
-#project2 { 
+#studyguide { 
   grid-area: comingsoon1;
-  background-image:url("/images/0762E637-9BAD-427A-A907-7BA1059E7706.JPG");
+  background-image:url("/images/stevaalex.github.io_prework-study-guide_.png"); 
+  background-position: top; 
+  background-size: cover;
 } 
 
-#project3 { 
+#proj3 { 
   grid-area: comingsoon2;
   background-image:url("/images/IMG_6655.jpg"); 
 
 } 
 
-#project4 { 
+#proj4 { 
   grid-area: comingsoon3;
   background-image:url("/images/IMG_6656.JPG");
 } 
 
-#project5 { 
+#proj5 { 
   grid-area: comingsoon4;
   background-image:url("/images/IMG_6956.JPG");
 } 
 
+#studyguide, 
+#web-access, 
+#proj3, 
+#proj4, 
+#proj5 {  
+  width: 1fr; 
+  height: 1fr;  
+  border: 5px solid #f6bcca;
+  margin: 10px; 
+  background-position: center; 
+  
+ } 
+ 
+#project1, 
 #project2, 
 #project3, 
 #project4, 
-#project5 {  
-  /* width: 1fr; 
-  height: 1fr;  */
-  border: 5px solid #f6bcca;
-  margin: 10px; 
+#project5 { 
+  display: flex;
+  box-sizing: border-box;
+  background-color: #f6bcca; 
+  padding: 20px; 
+  height: fit-content; 
+  width: fit-content;
+  margin-left: auto; 
+  align-items: flex-end; 
+  border-radius: 15%;
+} 
+.page-wrapper {  
+  display: grid;
+ grid-template-areas: "aboutMe AbBody"
+                "work projectcontainer"
+                "contactMe contactinfo";
+  grid-template-columns: auto;
+  margin-top: 30px;
 
+} 
+
+.AboutMe { 
+  grid-area: aboutMe; 
+  padding-right: 0px;
+} 
+
+#AB-Body { 
+  grid-area: AbBody; 
+  border-left: 5px solid rgb(172, 106, 144); 
+  margin-bottom: 40px;
+}
+.Work { 
+  grid-area: work;
+} 
+
+.projectContainer {
+  grid-area: projectcontainer;
+  border-left: 5px solid rgb(172, 106, 144); 
+  margin-bottom: 40px;
+ 
+} 
+
+.ContactMe { 
+  grid-area: contactMe; 
+} 
+
+#contact-info { 
+  grid-area: contactinfo;
+  border-left: 5px solid rgb(172, 106, 144);
+  margin-bottom: 40px;
+}
+
+.projectContainer p { 
+  text-decoration: none!important; 
+  font-size: 12px;
 }

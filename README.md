@@ -14,7 +14,9 @@ N/A
 
 ## Usage 
 click the link below to navigate to the website.
+https://stevaalex.github.io/resume-site/
 
+![screenshot of website](/resume-site/images/stevaalex.github.io_resume-site_.png)
 
 
 ## Credits

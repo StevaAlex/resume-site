@@ -63,7 +63,7 @@ h1{
   border-radius: 15%;
 }  
 .hero-banner { 
-  background-image: url("/images/IMG_6655.jpg"); /* use as shown to add a backgroun image using css*/
+  background-image: url("/resume-site/images/IMG_6655.jpg"); /* use as shown to add a backgroun image using css*/
   height: 200px; /* sets height of image*/
 } 
 
@@ -102,7 +102,7 @@ h1{
 
  #web-access {  
   grid-area: studyguide; /* web-access takes up the space of studyguide in your grid as shown in the visual above*/
-  background-image:url("/images/stevaalex.github.io_Bootcamp-first-challenge_\ \(1\).png"); /* applies background image to section*/
+  background-image:url("/resume-site/images/stevaalex.github.io_Bootcamp-first-challenge_\ \(1\).png");  /* applies background image to section*/
   border: 5px solid #f6bcca;
   margin: 10px;
   background-position: center; /*positions your background image */
@@ -111,25 +111,25 @@ h1{
 
 #studyguide { 
   grid-area: comingsoon1;
-  background-image:url("/images/stevaalex.github.io_prework-study-guide_.png"); 
+  background-image:url("/resume-site/images/stevaalex.github.io_prework-study-guide_.png"); 
   background-position: top; 
   background-size: cover;
 } 
 
 #proj3 { 
   grid-area: comingsoon2;
-  background-image:url("/images/IMG_6655.jpg"); 
+  background-image:url("/resume-site/images/IMG_6655.jpg"); 
 
 } 
 
 #proj4 { 
   grid-area: comingsoon3;
-  background-image:url("/images/IMG_6656.JPG");
+  background-image:url("/resume-site/images/IMG_6656.JPG");
 } 
 
 #proj5 { 
   grid-area: comingsoon4;
-  background-image:url("/images/IMG_6956.JPG");
+  background-image:url("/resume-site/images/IMG_6956.JPG");
 } 
 
 #studyguide, 
